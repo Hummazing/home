@@ -276,3 +276,80 @@ h6{
 	text-align: center;
 }
 
+
+/* Media Query für Mobile Geräte */
+
+@media (max-width: 768px) {
+  /* Header Styles für Mobile */
+  #headear {
+    margin-top: 20px;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+  }
+  
+  a {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  /* Main Content Styles für Mobile */
+  #haupt {
+    margin: 10px;
+  }
+  
+  h2, h3, h4, h5 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Bilder und Boxen für Mobile */
+  #siegel, #siegels {
+    width: 60px;
+  }
+  
+  #verpackung {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  #rezepte {
+    /* ... Hier können Anpassungen für das Stapeln der Rezepte erfolgen ... */
+  }
+  
+  #rezeptBox {
+    margin: 5px 0;
+  }
+  
+  /* Popups und Overlays */
+  #popup1, #popup2, #popup3 {
+    top: 2%;
+    bottom: 2%;
+    padding: 20px;
+  }
+  
+  #close {
+    top: 2%;
+    right: 2%;
+  }
+  
+  /* About Us Section für Mobile */
+  #aboutusblock {
+    padding: 10px;
+  }
+  
+  /* Footer Section für Mobile */
+  #pbbox {
+    align-items: center;
+  }
+  
+  #pb {
+    margin: 5px 0;
+  }
+}
+
+
