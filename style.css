@@ -1,0 +1,278 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+      background-color: #e88631;
+
+      }
+
+#headear{
+	margin-left: -20px;
+	padding-right: 30px;
+	margin-top: 40px;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+
+}
+
+a{
+	margin-top: 55px;
+	padding-right: 40px;
+	padding-left: 30px;
+	color: #000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e88631;
+}
+
+#haupt{
+	display: flex;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+h2{
+	color: #fff;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-right: 0px;
+	font-family: Verdana;
+	font-size: 35px;
+}
+
+p{
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 50px;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+#siegel{
+	height: 100px;
+	width: 100px;
+}
+
+#siegels{
+	margin-left: 100px;
+}
+
+#tute{
+	display: flex;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+#verpackung{
+	max-height: 700px;
+	width: 400px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 120px;
+	padding-right: 40px;
+}
+
+h3{
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 100px;
+	font-family: Verdana;
+	font-size: 35px;
+
+}
+
+h3:hover{
+	color: #01b699;
+}
+
+#rezeptPage{
+	margin-top: 80px;
+	background-color: #edd;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 100px;
+	border: 5px solid #fff;
+}
+
+#rezepte{
+	display: flex;
+}
+
+#rezept{
+	width: 100%;
+	height: 100%;
+}
+
+#rezeptBox{
+	width: 30%;
+	background-color: rgba(232,134,49, 0.7);
+	margin-left: 2%;
+	margin-right: 2%;
+	position: relative;
+}
+
+h4{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 25px;
+	color: #fff;	
+}
+
+#hover1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,134,49);
+	opacity: 0.0;
+	top: 0;
+	left: 0;
+}
+
+#hover1:hover{
+	opacity: 0.8;
+}
+
+#hover2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,134,49);
+	opacity: 0.0;
+	top: 0;
+	left: 0;
+}
+
+#hover2:hover{
+	opacity: 0.8;
+}
+
+#hover3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,134,49);
+	opacity: 0.0;
+	top: 0;
+	left: 0;
+}
+
+#hover3:hover{
+	opacity: 0.8;
+}
+
+h5{
+	color: #e88631;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+#popup1{
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 15%;
+	display: none;
+	background-color: #fff;
+	padding: 60px;
+
+}
+
+#popup2{
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 20%;
+	display: none;
+	background-color: #fff;
+	padding: 60px;
+
+
+}
+
+#popup3{
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	display: none;
+	background-color: #fff;
+	padding: 60px;
+
+}
+
+#close{
+	position: fixed;
+	top: 10%;
+	right: 10%;
+	width: 30px;
+	height: 30px;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+#herstellung{
+	display: flex;
+	margin-left: 120px;
+	padding-top: 120px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+
+#herstellungPlatz{
+	margin-top: 0px;
+}
+
+#jmpRezept{
+	padding-top: 60px;
+}
+
+#h2aboutus{
+	font-size: 30px; 
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#aboutusblock{
+	padding-right: 60px;
+}
+
+#pbbox{
+	position: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#pb{
+	margin-left: 5%;
+}
+
+h6{
+	font-family: monospace;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#centr{
+	text-align: center;
+}
+

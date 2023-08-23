@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+ <html lang="de">
+ <head> 
+ <title>HUMMAZING</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="style.css" type="text/css" />
+ <script src="javaskript.js"></script>
+ </head> 
+
+ <body>
+
+ <div id="headear"> 
+ 	<img src="./img/logo.jpeg">
+ 	<a class="oben" href="#tute">Produkt</a>
+ 	<a class="oben" href="#herstellung">Herstellungsanweisung</a>
+ 	<a class="oben" href="#jmpRezept">Rezepte</a>
+ 	<a class="oben" href="./aboutus.html">Über uns</a>
+
+ </div>
+
+ <div id="haupt">
+ 	<div><img src="./img/hummus.png"></div> 
+ 	<div>
+ 		<h2>Hummazing – Handmade Hummus<br> Tomate- Basilikum</h2>
+ 		<p>Tauche ein in die erfrischende Faszination des Tomate-Basilikum Hummuspulver - Mediterraner Genuss im Handumdrehen!<br>
+		Sonnengereifte Tomaten und würziges Basilikum entfalten sich auf deinem Teller, sobald du Wasser und Öl hinzufügst. Ob zuhause oder unterwegs – Hummazing begleitet dich immer!<br>
+		Einfach und schnell zubereitet: Wasser und Öl zugeben, umrühren – und der Geschmack des Mittelmeers erwartet dich. Perfekt portioniert, ideal für Singles.<br>
+		Aber auch für Outdoorsportler: Kompakt verpackt, bereit in Sekunden. Beim Wandern, Radfahren oder Campen – hol dir mediterranen Flair, wann immer du möchtest.<br>
+		Entdecke jetzt Hummazing's Tomate-Basilikum Hummuspulver und erlebe mühelosen mediterranen Genuss – überall und jederzeit!</p>
+ 		<div id="siegels">
+ 			<img id="siegel" alt="ohne Gen-Tech" src="https://www.noa-pflanzlich.de/app/themes/noa/assets/img/icon-ohne-gentechnik.svg">
+ 			<img id="siegel" alt="vegan" src="https://www.noa-pflanzlich.de/app/themes/noa/assets/img/icon-vegan.svg">
+ 			<img id="siegel" alt="Gluten Free" src="https://www.noa-pflanzlich.de/app/themes/noa/assets/img/icon-glutenfrei.svg">
+ 		</div>
+ 	</div>
+ </div>
+
+ <div id="tute">
+ 	<div>
+ 		<h2>Hummazing – Handmade Hummus<br>Tomate- Basilikum</h2>
+ 		<h3 id="zutat" onclick="zutatentrg()">+ Zutaten</h3>
+ 		<p id="zutattext"></p>
+ 		<h3 id="nahrwert" onclick="nahrwerttrg()">+ Nährwerte</h3>
+ 		<p id="nahrwerttext"></p>
+ 	</div>
+ 	<div>
+ 		<img id="verpackung" alt="tüte" src="./img/Verpackung.png">
+ 	</div>
+ </div>
+
+ <div id="herstellung">
+ 	<div id="herstellungPlatz"><img src="./img/herstell.jpeg"></div> 
+ 	<div>
+ 		<h2>Herstellanweisung</h2>
+ 		<p>Unsere einzigartige Kreation aus Tomate und Basilikum lässt sich im Handumdrehen zubereiten. Einfach 6-7 EL Wasser und 2-3 EL Öl hinzufügen, kurz umrühren, und schon erlebst du den mediterranen Genuss, den du liebst. Auch nur mit 7-8 EL Wasser anrührbar.<br>
+		Besonders praktisch für Solo-Haushalte, denn du zauberst nur die Menge, die du genießen möchtest. Keine Verschwendung, nur pure Freude für deinen Gaumen!
+		Auch ideal für Outdoorsportler, da es schnell und leicht in der Tüte hergestellt werden kann</p>
+ 	</div>
+ </div>
+ <div id="jmpRezept">
+	 <div id="rezeptPage">
+	 	<h5>Unsere Rezeptideen</h5>
+	 	<div id="rezepte">
+		 	<div id="rezeptBox" onclick="openpop(1)">
+		 		<img id="rezept" src="./img/nudeln.jpeg">
+		 		<div id="hover1"><h4>Hummus-Tomaten-Pasta mit Kapern</h4></div>
+		 	</div>
+		 	<div id="rezeptBox" onclick="openpop(2)">
+		 		<img id="rezept" src="./img/pizza.jpeg">
+		 		<div id="hover2"><h4>Hummus-Tomaten-Kartoffel-Pizza</h4></div>
+		 	</div>
+		 	<div id="rezeptBox" onclick="openpop(3)">
+		 		<img id="rezept" src="./img/lasagne.jpeg">
+		 		<div id="hover3"><h4>Hummus-Lasange</h4></div>
+		 	</div>
+		 </div>
+	 </div>
+</div>
+<div id="popup1">
+	<div>
+		<h6>Hummus-Tomaten-Pasta mit Kapern</h6>
+		<h6>Zutaten 
+		<br>Spirelli-Nudeln_________500 g
+		<br>Cocktailtomaten_________200 g
+		<br>Rucola__________________100 g
+		<br>Zwiebel_________________1 Stk
+		<br>Knoblauchzehe___________1 Stk
+		<br>passierte Tomaten_______200 g
+		<br>Kapern__________________4,0 TL
+		<br>grüne entsteinte Oliven_100 g
+		<br>Tomatenmark_____________1,0 EL
+		<br>Olivenöl________________1,0 TL
+		<br>Zucker__________________1,0 TL
+		<br>Salz
+		<br>Pfeffer
+		<br>+ angerührter Tomate-Basilikum-Hummus</h6>
+		<h6>Zubereitung:
+
+		<br>1.	Hummuspulver mit Öl und Wasser anrühren
+		<br>2.	Für die Pasta Wasser in einem Topf zum Kochen bringen. 
+		<br>3.	Die Zwiebel und den Knoblauch fein hacken. Die Cocktailtomaten halbieren.
+		<br>4.	Die Dinkel-Spirelli im kochenden Wasser al dente kochen. Etwas Nudelwasser kurz vor Ende der Garzeit aufheben.
+		<br>5.	Dann für die Sauce das Olivenöl in einer Pfanne erhitzen und die Zwiebeln darin glasig dünsten. Das Tomatenmark hinzufügen und kurz mitrösten. Den Knoblauch und Zucker hinzugeben und kurz karamellisieren lassen.
+		<br>6.	Nun den Hummus und die passierten Tomaten dazugeben und alles gut verrühren. Die Kapern hinzufügen, mit Salz und Pfeffer würzen und 10 Minuten bei mittlerer Stufe köcheln lassen.
+		<br>7.	Nun die Nudeln und das Nudelwasser mit der Sauce in der Pfanne vermengen. Die Cocktailtomaten und Oliven unterrühren.
+		<br>8.	Zum Schluss die Hummus Pasta auf Teller verteilen und mit Rucola servieren.</h6>
+		<img  onclick="closepop(1)" id="close" src="https://cdn-icons-png.flaticon.com/512/75/75519.png" alt="X">
+	</div>
+	<div id="essenbild"> <img src="./img/nudeln.jpeg" ></div>
+</div>
+
+<div id="popup2">
+	<div>
+		<h6>Hummus-Tomaten-Kartoffel-Pizza</h6>
+		<h6>Zutaten:
+		<br>Für den Pizzateig:
+		<br>Mehl______________________200g
+		<br>Hartweizengrieß___________50g
+		<br>Meersalz__________________1 TL gestrichen
+		<br>Trockenhefe_______________1/2 Pack 
+		<br>brauner Zucker____________1 TL gestrichen
+		<br>lauwarmes Wasser__________160ml 
+		<br>Für den Belag:
+		<br>große Kartoffeln__________1-2 Stk
+		<br>rote Zwiebel______________1 Stk
+		<br>Tomaten___________________1-2 Stk
+		<br>Basilikum
+		<br>Käse oder Käseersatz
+		<br>Salz, Pfeffer
+		<br>+ angerührter Tomate-Basilikum-Hummus</h6>
+		<h6>Zubereitung:
+		<br>1.	Alle Zutaten für den Teig miteinander gut verkneten und ca. 1 Stunde gehen lassen. Danach erneut etwas kneten und ausrollen.
+		<br>2.	Die Tomaten und Kartoffeln in Scheiben schneiden. Die Kartoffeln sollten in einem Topf mit Wasser ca. 5 Minuten vorgekocht werden.
+		<br>3.	Das Hummuspulver mit Öl und Wasser anrühren.
+		<br>4.	Anschließend den ausgerollten Teig mit Hummus bestreichen und dann mit den Zutaten belegen.
+		<br>5.	Die Pizza mit etwas Salz und Pfeffer würzen und bei 200°C Ober/Unterhitze im Ofen backen, bis der Rand knusprig ist.</h6>
+		<img  onclick="closepop(2)" id="close" src="https://cdn-icons-png.flaticon.com/512/75/75519.png" alt="X">
+	</div>
+	<div id="essenbild"> <img src="./img/pizza.jpeg" ></div>
+</div>
+
+<div id="popup3">
+	<div>
+		<h6>Hummus-Lasange</h6>
+		<h6>Zutaten:
+			<br>Lasagneplatten
+			<br>Olivenöl___________1 EL
+			<br>Zucchini___________1 Stk
+			<br>Champignons________100 g
+			<br>Blattspinat________200 g
+			<br>Dosentomaten_______300 ml
+			<br>Tofu natur_________200 g
+			<br>Basilikumblätter___1 Handvoll
+			<br>Hefeflocken________50 g
+			<br>Knoblauchzehe______1 Stk
+			<br>Salz 
+			<br>Pfeffer 
+			<br>+ angerührter Tomate-Basilikum-Hummus</h6>
+			<h6>Zubereitung:
+			<br>1.	Den Ofen auf 180 Grad vorheizen. 
+			<br>2.	In einem Topf mit kochendem Salzwasser die Nudelplatten kochen, bis sie al dente sind. Währenddessen Zucchini und Champignons klein schneiden.
+			<br>3.	In einer Pfanne Olivenöl erhitzen und Zucchini sowie Champignons anbraten. 5 Min. braten, dann den Blattspinat hinzugeben und weitere 5 Min. braten.
+			<br>4.	Die Pfanne vom Herd nehmen und beiseitestellen. 
+			<br>5.	Das Hummuspulver mit Öl und Wasser anrühren.
+			<br>6.	Den abgetropften Tofu in eine große Schüssel geben. Mit den Händen zerkrümeln und anschließend Hummus, Nährhefe, Basilikum, Salz und gepressten Knoblauch damit vermischen, bis die Konsistenz, der von Ricotta gleicht.
+			<br>7.	Dosentomaten in einer Schüssel mit Salz und Pfeffer würzen. 
+			<br>8.	Dann in einer Auflaufform auf dem Boden verstreichen. 4 Nudelplatten darauflegen, dann die Hälfte der Tofu-Mixtur darauf verstreichen und darauf die Hälfte des Gemüses verteilen. Mit Tomatensauce bedecken, erneut Nudelplatten, Tofumix und Gemüse darauf geben. Die letzte Nudelplattenschicht mit Tomatensauce bestreichen und darauf Nährhefe streuen.
+			<br>9.	Ca. 30 Min. im Backofen backen. Falls die Lasagne zu stark bräunt, mit Alufolie abdecken. Vor dem Servieren noch 5 Min. setzen lassen.</h6>
+		<img  onclick="closepop(3)" id="close" src="https://cdn-icons-png.flaticon.com/512/75/75519.png" alt="X">
+	</div>
+	<div id="essenbild"> <img src="./img/lasagne.jpeg" ></div>
+</div>
+
+<div>
+	<br><br><br><br>
+<p id="centr">Career  Impressum  Kontakt</p>
+	
+</div>
+
+ </body> 
+
+ </html>
