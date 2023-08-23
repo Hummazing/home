@@ -284,6 +284,7 @@ h6{
   #headear {
     margin-top: 20px;
     justify-content: center; /* Zentriert den Inhalt horizontal */
+    background-color: #ccc;
   }
   
   a {
