@@ -279,78 +279,101 @@ h6{
 
 /* Media Query für Mobile Geräte */
 
-@media (max-width: 768px) {
-  /* Header Styles für Mobile */
-  #headear {
-    margin-top: 20px;
-    justify-content: center; /* Zentriert den Inhalt horizontal */
-    background-color: #ccc;
-  }
-  
-  a {
-    margin-top: 10px;
-    padding: 5px 10px;
-    font-size: 16px;
-  }
-  
-  /* Main Content Styles für Mobile */
-  #haupt {
-    margin: 10px;
-  }
-  
-  h2, h3, h4, h5 {
-    font-size: 20px;
-    margin: 5px 0;
-  }
-  
-  p {
-    font-size: 14px;
-    margin: 5px 0;
-  }
-  
-  /* Bilder und Boxen für Mobile */
-  #siegel, #siegels {
-    width: 60px;
-  }
-  
-  #verpackung {
-    margin: 10px 0;
-    padding: 10px;
-  }
-  
-  #rezepte {
-    /* ... Hier können Anpassungen für das Stapeln der Rezepte erfolgen ... */
-  }
-  
-  #rezeptBox {
-    margin: 5px 0;
-  }
-  
-  /* Popups und Overlays */
-  #popup1, #popup2, #popup3 {
-    top: 2%;
-    bottom: 2%;
-    padding: 20px;
-  }
-  
-  #close {
-    top: 2%;
-    right: 2%;
-  }
-  
-  /* About Us Section für Mobile */
-  #aboutusblock {
-    padding: 10px;
-  }
-  
-  /* Footer Section für Mobile */
-  #pbbox {
-    align-items: center;
-  }
-  
-  #pb {
-    margin: 5px 0;
-  }
+@media (max-width: 768px) {/* Global Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e88631;
+}
+
+/* Header Styles */
+
+#headear {
+  padding: 20px; /* Adjust padding for better spacing */
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+a {
+  margin-top: 10px;
+  padding: 5px 20px; /* Adjust padding for better spacing */
+  font-size: 18px;
+}
+
+/* Main Content Styles */
+
+#haupt {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on mobile */
+  align-items: center; /* Center content horizontally */
+  margin: 20px; /* Adjust margin for spacing */
+}
+
+h2, h3, h4, h5 {
+  font-size: 24px; /* Decrease font size for mobile */
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
+p {
+  font-size: 16px; /* Decrease font size for mobile */
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
+/* Images and Boxes */
+
+#siegel, #siegels {
+  width: 80px; /* Adjust size for smaller screens */
+}
+
+#verpackung {
+  max-width: 100%; /* Ensure the box doesn't exceed screen width */
+  margin: 20px 0; /* Adjust margin for spacing */
+  padding: 20px; /* Adjust padding for better spacing */
+}
+
+#rezepte {
+  flex-direction: column; /* Stack recipes vertically on mobile */
+}
+
+#rezeptBox {
+  width: 100%; /* Occupy full width on mobile */
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
+/* Popups and Overlays */
+
+#popup1, #popup2, #popup3 {
+  top: 5%; /* Adjust top position for smaller screens */
+  bottom: 5%; /* Adjust bottom position for smaller screens */
+  padding: 20px; /* Adjust padding for better spacing */
+}
+
+#close {
+  top: 5%;
+  right: 5%;
+}
+
+/* About Us Section */
+
+#aboutusblock {
+  padding: 20px; /* Adjust padding for better spacing */
+}
+
+/* Footer Section */
+
+#pbbox {
+  flex-direction: column; /* Stack elements vertically on mobile */
+  align-items: center; /* Center content horizontally */
+}
+
+#pb {
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
 }
 
 
