@@ -285,9 +285,9 @@ h6{
 	font-family: monospace;
 	text-align: center;
 	color: #000;
-	margin-top: 0px;
+	top: 0px;
 	margin-bottom: 40px;
-	right: 220px;
+	right: 300px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
 }
 
