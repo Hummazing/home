@@ -14,6 +14,7 @@ body {
 	width: 120%;
 	background-color: #fff;
 	display: flex;
+	overflow: hidden;
 
 }
 
