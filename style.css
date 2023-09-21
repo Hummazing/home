@@ -276,6 +276,15 @@ h6{
 	text-align: center;
 }
 
+#button{
+	background-color: #fff;
+	padding: 40px;
+	font-size: 34px; 
+	font-family: monospace;
+	text-align: center;
+	color: #000;
+}
+
 
 /* Media Query für Mobile Geräte */
 
@@ -375,5 +384,6 @@ p {
 }
 
 }
+
 
 
