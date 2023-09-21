@@ -278,22 +278,19 @@ h6{
 }
 
 #button{
-	position: absolute;
 	background-color: #fff;
 	padding: 40px;
 	font-size: 34px; 
 	font-family: monospace;
 	text-align: center;
 	color: #000;
-	top: -200px;
 	margin-bottom: 40px;
-	right: 500px;
+	margin-left: 60%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
 }
 
 #diiv{
-	position: relative;
-	width: 100%;
+
 }
 
 
