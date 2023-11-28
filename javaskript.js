@@ -6,7 +6,7 @@ function zutatentrg() {
   if (document.getElementById('zutattext').textContent.trim().length > 0) {
   document.getElementById('zutattext').textContent = '';
 } else {
-  document.getElementById('zutattext').textContent = 'Kichererbsenpulver (77%), Tomatenpulver (8,6%), Salz, Basilikum, Zwiebel, Knoblauch, Kreuzkümmel';
+  document.getElementById('zutattext').textContent = '76,9 % Kichererbsenmehl, 17,2 %Tomatenpulver, Salz, Basilikum, Zwiebelpulver, Knoblauchpulver, Kreuzkümmel';
   document.getElementById('nahrwerttext').textContent = '';
 }
 }
@@ -14,10 +14,10 @@ function zutatentrg() {
 
 function nahrwerttrg() {
   if (document.getElementById('nahrwerttext').textContent.trim().length > 0) {
-  document.getElementById('nahrwerttext').textContent = '';
+  document.getElementById('nahrwerttext').src = '';
 } else {
   document.getElementById('zutattext').textContent = '';
-  document.getElementById('nahrwerttext').textContent = 'Lorem Ipsum ist ein Blindtext, der in der Druck- und Schriftindustrie als Platzhaltertext verwendet wird, wenn der tatsächliche Text noch nicht verfügbar ist. Es besteht aus einer scheinbar sinnlosen Aneinanderreihung von lateinischen Wörtern und hat keine eigentliche Bedeutung. Es wird seit dem 16. Jahrhundert verwendet und hat in der digitalen Welt immer noch große Bedeutung. Lorem Ipsum ist ein Blindtext, der in der Druck- und Schriftindustrie als Platzhaltertext verwendet wird, wenn der tatsächliche Text noch nicht verfügbar ist. Es besteht aus einer scheinbar sinnlosen Aneinanderreihung von lateinischen Wörtern und hat keine eigentliche Bedeutung. Es wird seit dem 16. Jahrhundert verwendet und hat in der digitalen Welt immer noch große Bedeutung';
+  document.getElementById('nahrwerttext').src = 'inhaltstoffe.jpeg';
 }
 }
 
