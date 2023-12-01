@@ -82,6 +82,24 @@ p{
 	padding-right: 40px;
 }
 
+#tuteshop{
+	display: flex;
+	margin-right: 100px;
+	margin-top: 100px;
+	overflow-x: scroll;
+	max-width: 1500px;
+	width: 1500px;
+}
+
+#verpackungshop{
+	max-height: 700px;
+	width: 400px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	padding-right: 30px;
+}
+
 #nahrwerttext{
 	margin-left: 100px;
 }
