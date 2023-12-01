@@ -4,20 +4,20 @@ const naText = document.getElementById('nahrwerttext');
 
 function zutatentrg() {
   if (document.getElementById('zutattext').textContent.trim().length > 0) {
-  document.getElementById('zutattext').src = '';
+  document.getElementById('zutattext').textContent = '';
 } else {
   document.getElementById('zutattext').textContent = '76,9 % Kichererbsenmehl, 17,2 %Tomatenpulver, Salz, Basilikum, Zwiebelpulver, Knoblauchpulver, Kreuzkümmel';
-  document.getElementById('nahrwerttext').src = '';
+  document.getElementById('nahrwerttext').style.visibility = 'hidden';
 }
 }
 
 
 function nahrwerttrg() {
-  if (document.getElementById('nahrwerttext').src != '') {
-  document.getElementById('nahrwerttext').src = '';
+  if (document.getElementById('nahrwerttext').style.visibility == 'visible';) {
+  document.getElementById('nahrwerttext').style.visibility = 'hidden';
 } else {
   document.getElementById('zutattext').textContent = '';
-  document.getElementById('nahrwerttext').src = 'inhaltstoffe.jpeg';
+  document.getElementById('nahrwerttext').style.visibility = 'visible';
 }
 }
 
