@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <html lang="de">
+ <head> 
+ <title>HUMMAZING</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="style.css" type="text/css" />
+ <script src="javaskript.js"></script>
+ </head> 
+
+ <body>
+
+ <div id="headear"> 
+ 	<img src="./img/logo.jpeg">
+ 	<a class="oben" href="#tute">Produkt</a>
+ 	<a class="oben" href="#herstellung">Herstellungs-<br>anweisung</a>
+ 	<a class="oben" href="#jmpRezept">Rezepte</a>
+ 	<a class="oben" href="./aboutus.html">Über uns</a>
+	<a class="oben" href="./shop.html">Shop</a>
+ </div>
+
+ <div id="haupt">
+ <div id="tute">
+	<div id="verpackung">
+ 		<img alt="tüte" src="./img/Verpackung.jpeg">
+   <p>Hummuspulver<br>Tomate-Basilikum</p>
+   <p>1,81€</p>
+	</div>
+ <div id="verpackung">
+ 		<img alt="tüte" src="./img/Verpackung.jpeg">
+   <p>Hummuspulver<br>Süßkartoffel-Kürbis</p>
+   <p>1,81€</p>
+	</div>
+ <div id="verpackung">
+ 		<img alt="tüte" src="./img/Verpackung.jpeg">
+   <p>Hummuspulver<br>Linse-Curry</p>
+   <p>1,81€</p>
+	</div>
+ <div id="verpackung">
+ 		<img alt="tüte" src="./img/Verpackung.jpeg">
+   <p>Hummuspulver<br>Himbeere</p>
+   <p>1,81€</p>
+	</div>
+ <div id="verpackung">
+ 		<img alt="tüte" src="./img/Verpackung.jpeg">
+   <p>Hummuspulver<br>Pikant</p>
+   <p>1,81€</p>
+	</div>
+ </div>
+ 
+ </body> 
+
+ </html>
