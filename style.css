@@ -18,6 +18,16 @@ body {
 
 }
 
+#headearshop{
+	margin-left: -20px;
+	padding-right: 30px;
+	margin-top: 40px;
+	width: 120%;
+	background-color: #fff;
+	display: flex;
+
+}
+
 a{
 	margin-top: 55px;
 	padding-right: 30px;
